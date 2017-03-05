@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.squares-container {
+  @include clearfix;
+  max-width: 1020px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: $black;
+}
+
+.square {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px;
+  border: 1px solid;
+
+  @media (min-width: 600px) {
+    width: 50%;
+  }
+  @media (min-width: 900px) {
+    width: 33.33%;
+  }
+}
