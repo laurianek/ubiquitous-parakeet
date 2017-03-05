@@ -1,0 +1,22 @@
+{
+  "name": "which-frontend-test-lauriane",
+  "version": "1.0.0",
+  "description": "Test for Which?",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1"
+  }
+}
