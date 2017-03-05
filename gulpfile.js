@@ -5,10 +5,10 @@ const sass = require('gulp-sass');
 
 const config = {
   paths: {
-    js: 'src/assets/scripts/**/*.js',
-    css: 'src/assets/styles/**/*.scss'
+    js: 'src/scripts/**/*.js',
+    css: 'src/styles/**/*.scss'
   },
-  output: './src/assets'
+  output: './dist/assets'
 };
 
 gulp.task('build:js', () => {

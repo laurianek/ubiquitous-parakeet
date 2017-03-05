@@ -1,5 +1,7 @@
 (function () {
-  document.onreadystatechange = () => {
+  'use strict';
+
+  document.onreadystatechange = function() {
     if (document.readyState === 'complete') {
       init();
     }

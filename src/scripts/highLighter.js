@@ -1,4 +1,5 @@
 (function () {
+  'use strict'
 
   class HighLighter {
     constructor(MAX_SQUARE) {
@@ -13,10 +14,9 @@
       document.querySelectorAll('.square')
         .forEach(s => s.classList.remove('square--highlight'));
 
-      findMultiples.call(this, number).forEach(m => {
-        document.getElementById(`square_${m}`).classList.add('square--highlight');
-      });
-      console && console.log('processed');
+      findMultiples.call(this, number)
+        .forEach(m => document.getElementById(`square_${m}`)
+          .classList.add('square--highlight'));
     }
   }
 
