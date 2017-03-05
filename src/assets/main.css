@@ -26,3 +26,6 @@
   @media (min-width: 900px) {
     .square {
       width: 33.33%; } }
+
+.square--highlight {
+  background-color: #c4dfb8; }
